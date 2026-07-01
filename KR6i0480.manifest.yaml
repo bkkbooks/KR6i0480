@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR6i0480/v1
+canonical_location: https://kanripo.org/bkk/KR6i0480/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說佛十力經
+  identifiers:
+    alt_id:
+    - T17n0781
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0781.xml
+    old_id: T17n0781
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0480_000.yaml, hash: 'sha256:049efdfd3c51ea7fb699cbcacc6ef14f505b0c9905c4153c76941e3444f4e5dd'}
+  - {seq: 1, filename: KR6i0480_001.yaml, hash: 'sha256:52b191b5f83f0eaafa3a0df9ec83eb326884c61cbc44228900cbde72a6430952'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0480_001.markers.yaml, hash: 'sha256:3ec48697bd661af71fd8dde2c41459fdb0af2a08f1a06633b6cd4ae3fa1764c1'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0480_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1045
+  label: 佛說佛十力經
+  type: juan
+  level: 1
+hash: sha256:b9ea1d8516397b2b9e1b2d6221802dd2ca72d24d305863b61f7cb7d12b96e764
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+editions:
+- short: T
